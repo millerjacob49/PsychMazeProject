@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 409
+  controlID: 70
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 65
+  controlID: 71
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 32
+  controlID: 52
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 561
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -215,7 +215,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1920
+    x: 0
     y: 73
     width: 362
     height: 540
@@ -228,7 +228,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 16fbffff566e0000
+      m_ExpandedIDs: 16fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -300,7 +300,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1557
+    x: 363
     y: 73
     width: 1101
     height: 540
@@ -538,9 +538,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.9136033, y: -15.617362, z: 2.1925545}
+    m_Target: {x: -0.94994354, y: 0.5, z: 22}
     speed: 2
-    m_Value: {x: 4.9136033, y: -15.617362, z: 2.1925545}
+    m_Value: {x: -0.94994354, y: 0.5, z: 22}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -591,9 +591,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.43171853, y: -0.55201954, z: 0.4065672, w: -0.58617115}
   m_Size:
-    m_Target: 10
+    m_Target: 28.373669
     speed: 2
-    m_Value: 10
+    m_Value: 28.373669
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -637,8 +637,8 @@ MonoBehaviour:
     y: 561
     width: 1466
     height: 386
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -666,7 +666,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1920
+    x: 0
     y: 634
     width: 1465
     height: 365
@@ -699,10 +699,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 42720000
-    m_LastClickedID: 29250
-    m_ExpandedIDs: 00000000427200004472000046720000487200004a720000647200007472000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 4e720000
+    m_LastClickedID: 29262
+    m_ExpandedIDs: 000000004e7200005072000052720000547200005672000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -730,7 +730,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000427200004472000046720000487200004a720000
+    m_ExpandedIDs: 000000004e72000050720000527200005472000056720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -755,9 +755,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 566e0000
-    m_LastClickedInstanceID: 28246
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: f2720000
+    m_LastClickedInstanceID: 29426
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -807,10 +807,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1912
-    y: 633
-    width: 1453
-    height: 358
+    x: -1920
+    y: 634
+    width: 1465
+    height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -834,8 +834,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -863,7 +863,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -454
+    x: 1466
     y: 73
     width: 453
     height: 926
@@ -877,8 +877,8 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 28246
-  m_LastVerticalScrollValue: 152
+  m_LastInspectedObjectInstanceID: 29426
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -1004,7 +1004,7 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 0
+    currentBranchHasUpdate: 1
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
@@ -1013,144 +1013,11 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 560d37d8517c937418f56f4db8462f7f
-        - 707acc8dffb72b144bb1ffbe1c965f3d
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes\Playground.unity
-          label: Playground.unity
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\Playground.unity
-            fullPath: C:\Users\mille\PsychMaze Project\Assets\Scenes\Playground.unity
-            projectPath: Assets\Scenes\Playground.unity
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
+        keys: []
+        values: []
       folders:
-        keys:
-        - Assets
-        - Assets\Scenes
-        - UserSettings
-        - UserSettings\Layouts
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -1179,114 +1046,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\Playground.unity
-        label: Playground.unity
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\Playground.unity
-          fullPath: C:\Users\mille\PsychMaze Project\Assets\Scenes\Playground.unity
-          projectPath: Assets\Scenes\Playground.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2021.dwlt
-        label: default-2021.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: C:\Users\mille\PsychMaze Project\UserSettings\Layouts\default-2021.dwlt
-          projectPath: UserSettings\Layouts\default-2021.dwlt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -1306,28 +1065,16 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries:
-    - path: Assets\Scenes\Playground.unity
-      fullPath: C:\Users\mille\PsychMaze Project\Assets\Scenes\Playground.unity
-      projectPath: Assets\Scenes\Playground.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: UserSettings\Layouts\default-2021.dwlt
-      fullPath: C:\Users\mille\PsychMaze Project\UserSettings\Layouts\default-2021.dwlt
-      projectPath: UserSettings\Layouts\default-2021.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 2 changed files
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-02-14T13:02:31.850-08:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-02-14T13:07:00.080-08:00
+      updatedTimeString: 2023-02-14T15:27:05.274-08:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-02-14T13:07:00.144-08:00
+      updatedTimeString: 2023-02-14T15:27:02.884-08:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -4936,7 +4683,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/millerjacob49/PsychMazeProject
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
@@ -4947,13 +4694,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-02-14T13:02:31.850-08:00
+    updatedTimeString: 2023-02-14T13:08:48.456-08:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-02-14T13:04:33.368-08:00
+    updatedTimeString: 2023-02-14T13:12:23.597-08:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-02-14T13:04:33.359-08:00
+    updatedTimeString: 2023-02-14T13:12:23.590-08:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -4971,8 +4718,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Pushed
   appManagerProgressValue: 0
   appManagerProgressMessage: 
   primaryConnectionUsername: 

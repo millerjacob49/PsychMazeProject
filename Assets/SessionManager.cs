@@ -14,7 +14,8 @@ public class SessionManager : MonoBehaviour
     public GameObject DDMapMgmt;
     public GameObject Player;
     public GameObject EndText;
-    public int currentTrial = 0;
+    string SubjectInputID;
+    public int currentTrial = 1;
     public string sessionName = " ";
     public int trialAmounts;    //retrieved from settings menu
     public int miniMapSet;      //retrieved from settings menu
@@ -25,6 +26,8 @@ public class SessionManager : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
+        string trialInputText = File.ReadAllText(Application.streamingAssetsPath + "/Input/TrialNumberInput.txt");
+        trialAmounts = int.Parse(trialInputText);
         
 
 
@@ -33,7 +36,6 @@ public class SessionManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        trialAmounts = 1; //initializing to 2 just to make sure game doesnt freeze at start
         
         if (GetCompletion() == 2)
         {
@@ -41,11 +43,9 @@ public class SessionManager : MonoBehaviour
             TrialManager trialMgmt = GetComponent<TrialManager>();
             trialMgmt.NewTrial();
 
-            DropDownTrials DDTrials = DDTrialMgmt.GetComponent<DropDownTrials>();
-            trialAmounts = DDTrials.trialAmounts;
         }
 
-        if (currentTrial > trialAmounts)
+        if ((currentTrial+1) > trialAmounts)
         {
             Debug.Log(currentTrial + ">" + trialAmounts + "So End");
             //End of the program... Figure out what to do here.
@@ -62,15 +62,14 @@ public class SessionManager : MonoBehaviour
         
     }
 
+
     public void Finalizer()
     {
 
-        DropDownTrials DDTrials = DDTrialMgmt.GetComponent<DropDownTrials>();
-        trialAmounts = DDTrials.trialAmounts;
 
         DropDownManager DDMaps = DDMapMgmt.GetComponent<DropDownManager>();
         miniMapSet = DDMaps.MapValue;
-        File.AppendAllText(sessionName, "Header \n" + ", Condition: ," + MiniMapConvert(miniMapSet) + "\n" + ",SubjectNumber: " + /*JUST AN EXAMPLE*/ "117" + "\n" + ",Time Started: " + System.DateTime.Now.ToString("MM-dd_HH-mm-ss") + "\n");
+        File.AppendAllText(sessionName, "Header \n" + ", Condition: ," + MiniMapConvert(miniMapSet) + "\n" + ",SubjectNumber: " + SubjectInputID + "\n" + ",Time Started: " + System.DateTime.Now.ToString("MM-dd_HH-mm-ss") + "\n");
         File.AppendAllText(sessionName, "***** \n");
 
         string settingsData = "Trial, P/A, Time" + "\n";
@@ -92,6 +91,7 @@ public class SessionManager : MonoBehaviour
         }
         else
         {
+            SubjectInputID = subjectID;
             return false;
         }
 

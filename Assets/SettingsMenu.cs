@@ -10,7 +10,6 @@ public class SettingsMenu : MonoBehaviour
 {
     public GameObject Menu;
     public GameObject StartButton;
-    public GameObject TrialDD;
     public GameObject MapDD;
     public GameObject Player;
     public GameObject Manager;
@@ -62,8 +61,8 @@ public class SettingsMenu : MonoBehaviour
         Menu.SetActive(false);
         StartButton.SetActive(false);
         MapDD.SetActive(false);
-        TrialDD.SetActive(false);
         InstText.SetActive(false);
+        SubjectText.SetActive(false);
     }
 
     

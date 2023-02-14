@@ -21,24 +21,8 @@ namespace Experiment
         public float EndTime = 0f;
         public int curTrial;    //Want to get this from the SessionManager script
         public int TrialCompletion;
-       
-
-        // Start is called before the first frame update
-        void Start()
-        {
 
 
-        }
-
-        void Update()
-        {
-
-        }
-
-        public void End()
-        {
-            WriteDataToFile();
-        }
 
         public void StartTimer()
         {
@@ -66,7 +50,7 @@ namespace Experiment
                 EndTimePractice = Time.time;
                 TrialCompletion = 1;
                 DropDownManager MapMgmt = MapControls.GetComponent<DropDownManager>();
-                //MapMgmt.RemoveMaps();   //remove map for actual run
+                MapMgmt.RemoveMaps();   //remove map for actual run
             }
             else
             {
@@ -89,7 +73,7 @@ namespace Experiment
             curTrial = sessionManager.currentTrial;
             float TotalTimePractice = EndTimePractice - StartTimePractice;
             float TotalTime = EndTime - StartTime;
-            string Data = curTrial + ", Practice, " + TotalTimePractice + "\n" + curTrial + ", Actual, " + TotalTime + "\n";
+            string Data = (curTrial+1) + ", Practice, " + TotalTimePractice + "\n" + (curTrial+1) + ", Actual, " + TotalTime + "\n";
             string FileName = sessionManager.sessionName;
             File.AppendAllText(FileName, Data);
         }

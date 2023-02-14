@@ -26,7 +26,7 @@ public class TrialCounterDisplay : MonoBehaviour
     void Update()
     {
         GetTrialInfo();
-        textElement.text = "Trial " + curTrial + TrialType;
+        textElement.text = "Trial " + (curTrial+1) + TrialType;
     }
 
     void GetTrialInfo()
