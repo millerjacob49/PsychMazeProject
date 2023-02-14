@@ -8,13 +8,14 @@ using TMPro;
 
 public class GetText : MonoBehaviour
 {
-    public TextMeshProUGUI textElement;
-    public TextAsset TextIn;
+    public TextMeshProUGUI textElementInstructions;
+    public TextMeshProUGUI textElementDebrief;
+    public TextAsset TextInstructions;
+    public TextAsset Debrief;
 
     void Start()
     {
-        //textElement.text = Path.Combine(Application.streamingAssetsPath, "/Input/Instructions.txt");
-        textElement.text = File.ReadAllText(Application.streamingAssetsPath + "/Input/Instructions.txt");
-        //textElement.text = TextIn.ToString();
+        textElementInstructions.text = File.ReadAllText(Application.streamingAssetsPath + "/Input/Instructions.txt");
+        textElementDebrief.text = File.ReadAllText(Application.streamingAssetsPath + "/Input/Debrief.txt");
     }
 }

@@ -3886,7 +3886,7 @@ GameObject:
   - component: {fileID: 1338101932}
   - component: {fileID: 1338101931}
   m_Layer: 5
-  m_Name: EndGameText
+  m_Name: DebriefText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4476,7 +4476,8 @@ MonoBehaviour:
   Player: {fileID: 729227059}
   Manager: {fileID: 1115708076}
   InstText: {fileID: 88951025}
-  SubjectText: {fileID: 1707186359}
+  SubjectText: {fileID: 1202671500}
+  SubjectInput: 
 --- !u!114 &1536687406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4489,8 +4490,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6d3cf3c5864feb4da9766cf308600e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textElement: {fileID: 88951027}
-  TextIn: {fileID: 4900000, guid: 609612ac1dac149419ae8c291e1bad0c, type: 3}
+  textElementInstructions: {fileID: 88951027}
+  textElementDebrief: {fileID: 1338101931}
+  TextInstructions: {fileID: 0}
+  Debrief: {fileID: 0}
 --- !u!1 &1559157249
 GameObject:
   m_ObjectHideFlags: 0
