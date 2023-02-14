@@ -1,19 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-
-/* still need :
- * Toggle minimap
- * Read/Display instructions from text file
- * */
+using UnityEngine.UI;
+using TMPro;
+using Experiment;
 
 
 public class SettingsMenu : MonoBehaviour
 {
     public GameObject Menu;
     public GameObject StartButton;
+    public GameObject TrialDD;
+    public GameObject MapDD;
     public GameObject Player;
+    public GameObject Manager;
+    public GameObject InstText;
+    public GameObject SubjectText;
+    public string SubjectInput;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -26,8 +31,6 @@ public class SettingsMenu : MonoBehaviour
         Player.SetActive(false);  
     }
 
-    //on finalize settings, set camera to face forward at origin.
-
     void onClick()
     {
         StartMaze();
@@ -36,14 +39,34 @@ public class SettingsMenu : MonoBehaviour
     //exits menu and re-enables player
     public void StartMaze()
     {
+        SessionManager sessionManager1 = Manager.GetComponent<SessionManager>();
 
-        Player.SetActive(true);
-        Cursor.visible = false;
-
-        Menu.SetActive(false);
+        //Check that the integer entered in the input box has not been used yet *************************************
+        SubjectInput = SubjectText.GetComponent<TMP_InputField>().text;
         
+        if (!sessionManager1.CheckFile(SubjectInput))
+        {
+            Player.SetActive(true);
+            Cursor.visible = false;
+
+
+            sessionManager1.Finalizer();
+
+            RemoveMenu();
+        }
         
     }
+
+    public void RemoveMenu()
+    {
+        Menu.SetActive(false);
+        StartButton.SetActive(false);
+        MapDD.SetActive(false);
+        TrialDD.SetActive(false);
+        InstText.SetActive(false);
+    }
+
+    
 
 
 
