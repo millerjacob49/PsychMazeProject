@@ -28,6 +28,12 @@ public class DropDownManager : MonoBehaviour
         }
     }
 
+    //public void SizeMiniMap()
+    //{
+    //    string mapSizeText = File.ReadAllText(Application.streamingAssetsPath + "/Input/MiniMapSize.txt");
+    //    mapSize = float.Parse(mapSizeText);
+    //}
+
     public void ReplaceMaps()
     {
         if (MapValue == 1)

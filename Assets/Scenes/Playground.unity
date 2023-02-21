@@ -691,6 +691,7 @@ GameObject:
   - component: {fileID: 193488902}
   - component: {fileID: 193488901}
   - component: {fileID: 193488900}
+  - component: {fileID: 193488903}
   m_Layer: 0
   m_Name: MiniMap Camera
   m_TagString: Untagged
@@ -797,6 +798,20 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &193488903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193488898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47524d8fd517514684eb2931b21e808, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filename: C:/Users/mille/PsychMaze Project/Assets/StreamingAssets/Input/MapSize.txt
+  defaultHeight: 13
 --- !u!1 &202566384
 GameObject:
   m_ObjectHideFlags: 0
@@ -2751,7 +2766,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6b5e8b66c959e27429c490371a876ec6, type: 2}
+      objectReference: {fileID: 2100000, guid: be4629380aedc2342aad6065892d34b1, type: 2}
     - target: {fileID: -5903242358210382839, guid: b56e682ebda6d4a4597d25b7afdcdfb4,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -5240,7 +5255,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: cc3d945822ec19f449280eeb87b44a26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

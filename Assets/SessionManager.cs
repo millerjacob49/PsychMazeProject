@@ -17,7 +17,7 @@ public class SessionManager : MonoBehaviour
     string SubjectInputID;
     public int currentTrial = 1;
     public string sessionName = " ";
-    public int trialAmounts;    //retrieved from settings menu
+    public int trialAmounts;    //retrieved from text fule
     public int miniMapSet;      //retrieved from settings menu
     public int trialCompletion;  //retrieved from trial manager
     
@@ -71,6 +71,8 @@ public class SessionManager : MonoBehaviour
         miniMapSet = DDMaps.MapValue;
         File.AppendAllText(sessionName, "Header \n" + ", Condition: ," + MiniMapConvert(miniMapSet) + "\n" + ",SubjectNumber: " + SubjectInputID + "\n" + ",Time Started: " + System.DateTime.Now.ToString("MM-dd_HH-mm-ss") + "\n");
         File.AppendAllText(sessionName, "***** \n");
+
+        
 
         string settingsData = "Trial, P/A, Time" + "\n";
         
