@@ -43,7 +43,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Git for Unity
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 641
     height: 603
-  m_MinSize: {x: 640, y: 601}
-  m_MaxSize: {x: 4000, y: 4021}
+  m_MinSize: {x: 640, y: 580}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 640, y: 601}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 256
+  controlID: 159
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 21
+  controlID: 113
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 28
+  controlID: 114
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 29
+  controlID: 115
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -343,14 +343,14 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 947
-  m_MinSize: {x: 276, y: 71}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 21}
   - {fileID: 22}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -528,7 +528,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b4f2ffff68f3ffff50f6ffff16fbffff
+      m_ExpandedIDs: 4cecffff04edffffe8efffff16fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -862,7 +862,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.4317193, y: -0.55202055, z: 0.4065679, w: -0.5861722}
     speed: 2
-    m_Value: {x: 0.4317193, y: 0.5520206, z: -0.4065679, w: 0.5861722}
+    m_Value: {x: -0.43171853, y: -0.55201954, z: 0.4065672, w: -0.58617115}
   m_Size:
     m_Target: 28.373669
     speed: 2
@@ -933,22 +933,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/StreamingAssets/Input
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/StreamingAssets/Input
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mille\PsychMaze Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 3c730000
-    m_LastClickedID: 29500
-    m_ExpandedIDs: 0000000056720000587200005a7200005c7200005e7200009472000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 76720000
+    m_LastClickedID: 29302
+    m_ExpandedIDs: 0000000056720000587200005a7200005c7200005e72000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1003,7 +1003,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1135,10 +1135,10 @@ MonoBehaviour:
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 1
-  currentStatusEntriesHasUpdate: 1
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -1223,22 +1223,497 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
     currentBranch: master
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000004000000000000000
+        values:
+        - path: ProjectSettings\ProjectSettings.asset
+          label: ProjectSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ProjectSettings.asset
+            fullPath: C:\Users\mille\PsychMaze Project\ProjectSettings\ProjectSettings.asset
+            projectPath: ProjectSettings\ProjectSettings.asset
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
       folders:
         keys:
+        - 2-27Build
+        - 2-27Build\MonoBleedingEdge
+        - 2-27Build\MonoBleedingEdge\EmbedRuntime
+        - 2-27Build\MonoBleedingEdge\etc
+        - 2-27Build\MonoBleedingEdge\etc\mono
+        - 2-27Build\MonoBleedingEdge\etc\mono\2.0
+        - 2-27Build\MonoBleedingEdge\etc\mono\2.0\Browsers
+        - 2-27Build\MonoBleedingEdge\etc\mono\4.0
+        - 2-27Build\MonoBleedingEdge\etc\mono\4.0\Browsers
+        - 2-27Build\MonoBleedingEdge\etc\mono\4.5
+        - 2-27Build\MonoBleedingEdge\etc\mono\4.5\Browsers
+        - 2-27Build\MonoBleedingEdge\etc\mono\mconfig
+        - 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip
+        - 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data
+        - 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data\Plugins
+        - 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data\Plugins\x86
+        - 2-27Build\PsychMaze Project_Data
+        - 2-27Build\PsychMaze Project_Data\Managed
+        - 2-27Build\PsychMaze Project_Data\Plugins
+        - 2-27Build\PsychMaze Project_Data\Plugins\x86
+        - 2-27Build\PsychMaze Project_Data\Resources
+        - 2-27Build\PsychMaze Project_Data\StreamingAssets
+        - 2-27Build\PsychMaze Project_Data\StreamingAssets\Input
+        - ProjectSettings
         - UserSettings
         - UserSettings\Layouts
         values:
+        - path: 2-27Build
+          label: 2-27Build
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\MonoBleedingEdge
+          label: MonoBleedingEdge
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\MonoBleedingEdge\EmbedRuntime
+          label: EmbedRuntime
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\MonoBleedingEdge\etc
+          label: etc
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\MonoBleedingEdge\etc\mono
+          label: mono
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0
+          label: 2.0
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\Browsers
+          label: Browsers
+          level: 5
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0
+          label: 4.0
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\Browsers
+          label: Browsers
+          level: 5
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5
+          label: 4.5
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\Browsers
+          label: Browsers
+          level: 5
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\MonoBleedingEdge\etc\mono\mconfig
+          label: mconfig
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip
+          label: PsychMaze Project_BurstDebugInformation_DoNotShip
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data
+          label: Data
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data\Plugins
+          label: Plugins
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data\Plugins\x86
+          label: x86
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\PsychMaze Project_Data
+          label: PsychMaze Project_Data
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\PsychMaze Project_Data\Managed
+          label: Managed
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\PsychMaze Project_Data\Plugins
+          label: Plugins
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\PsychMaze Project_Data\Plugins\x86
+          label: x86
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\PsychMaze Project_Data\Resources
+          label: Resources
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\PsychMaze Project_Data\StreamingAssets
+          label: StreamingAssets
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input
+          label: Input
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: UserSettings
           label: UserSettings
           level: 0
@@ -1303,6 +1778,3193 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: 2-27Build
+        label: 2-27Build
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\MonoBleedingEdge
+        label: MonoBleedingEdge
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\MonoBleedingEdge\EmbedRuntime
+        label: EmbedRuntime
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+        label: mono-2.0-bdwgc.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+          projectPath: 2-27Build\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+        label: MonoPosixHelper.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+          projectPath: 2-27Build\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc
+        label: etc
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\MonoBleedingEdge\etc\mono
+        label: mono
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0
+        label: 2.0
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\Browsers
+        label: Browsers
+        level: 5
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+        label: Compat.browser
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+        label: DefaultWsdlHelpGenerator.aspx
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\machine.config
+        label: machine.config
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\machine.config
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\2.0\machine.config
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\2.0\machine.config
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\settings.map
+        label: settings.map
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\settings.map
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\2.0\settings.map
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\2.0\settings.map
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\web.config
+        label: web.config
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\web.config
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\2.0\web.config
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\2.0\web.config
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0
+        label: 4.0
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\Browsers
+        label: Browsers
+        level: 5
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+        label: Compat.browser
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+        label: DefaultWsdlHelpGenerator.aspx
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\machine.config
+        label: machine.config
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\machine.config
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.0\machine.config
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.0\machine.config
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\settings.map
+        label: settings.map
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\settings.map
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.0\settings.map
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.0\settings.map
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\web.config
+        label: web.config
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\web.config
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.0\web.config
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.0\web.config
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5
+        label: 4.5
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\Browsers
+        label: Browsers
+        level: 5
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+        label: Compat.browser
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+        label: DefaultWsdlHelpGenerator.aspx
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\machine.config
+        label: machine.config
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\machine.config
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.5\machine.config
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.5\machine.config
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\settings.map
+        label: settings.map
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\settings.map
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.5\settings.map
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.5\settings.map
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\web.config
+        label: web.config
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\web.config
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.5\web.config
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.5\web.config
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\browscap.ini
+        label: browscap.ini
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\browscap.ini
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\browscap.ini
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\browscap.ini
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\config
+        label: config
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\config
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\config
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\config
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\mconfig
+        label: mconfig
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\MonoBleedingEdge\etc\mono\mconfig\config.xml
+        label: config.xml
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\MonoBleedingEdge\etc\mono\mconfig\config.xml
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\mconfig\config.xml
+          projectPath: 2-27Build\MonoBleedingEdge\etc\mono\mconfig\config.xml
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project.exe
+        label: PsychMaze Project.exe
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project.exe
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project.exe
+          projectPath: 2-27Build\PsychMaze Project.exe
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip
+        label: PsychMaze Project_BurstDebugInformation_DoNotShip
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data
+        label: Data
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data\Plugins
+        label: Plugins
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data\Plugins\x86
+        label: x86
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data\Plugins\x86\lib_burst_generated.txt
+        label: lib_burst_generated.txt
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data\Plugins\x86\lib_burst_generated.txt
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data\Plugins\x86\lib_burst_generated.txt
+          projectPath: 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data\Plugins\x86\lib_burst_generated.txt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data
+        label: PsychMaze Project_Data
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\PsychMaze Project_Data\app.info
+        label: app.info
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\app.info
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\app.info
+          projectPath: 2-27Build\PsychMaze Project_Data\app.info
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\boot.config
+        label: boot.config
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\boot.config
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\boot.config
+          projectPath: 2-27Build\PsychMaze Project_Data\boot.config
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\globalgamemanagers
+        label: globalgamemanagers
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\globalgamemanagers
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\globalgamemanagers
+          projectPath: 2-27Build\PsychMaze Project_Data\globalgamemanagers
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\globalgamemanagers.assets
+        label: globalgamemanagers.assets
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\globalgamemanagers.assets
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\globalgamemanagers.assets
+          projectPath: 2-27Build\PsychMaze Project_Data\globalgamemanagers.assets
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\globalgamemanagers.assets.resS
+        label: globalgamemanagers.assets.resS
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\globalgamemanagers.assets.resS
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\globalgamemanagers.assets.resS
+          projectPath: 2-27Build\PsychMaze Project_Data\globalgamemanagers.assets.resS
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\level0
+        label: level0
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\level0
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\level0
+          projectPath: 2-27Build\PsychMaze Project_Data\level0
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed
+        label: Managed
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Assembly-CSharp.dll
+        label: Assembly-CSharp.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Assembly-CSharp.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Assembly-CSharp.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Assembly-CSharp.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Cinemachine.dll
+        label: Cinemachine.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Cinemachine.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Cinemachine.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Cinemachine.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Mono.Security.dll
+        label: Mono.Security.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Mono.Security.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Mono.Security.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Mono.Security.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\mscorlib.dll
+        label: mscorlib.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\mscorlib.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\mscorlib.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\mscorlib.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\netstandard.dll
+        label: netstandard.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\netstandard.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\netstandard.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\netstandard.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.ComponentModel.Composition.dll
+        label: System.ComponentModel.Composition.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.ComponentModel.Composition.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.ComponentModel.Composition.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.ComponentModel.Composition.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.Configuration.dll
+        label: System.Configuration.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.Configuration.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Configuration.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Configuration.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.Core.dll
+        label: System.Core.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.Core.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Core.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Core.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.Data.DataSetExtensions.dll
+        label: System.Data.DataSetExtensions.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.Data.DataSetExtensions.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Data.DataSetExtensions.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Data.DataSetExtensions.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.Data.dll
+        label: System.Data.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.Data.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Data.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Data.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.dll
+        label: System.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.Drawing.dll
+        label: System.Drawing.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.Drawing.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Drawing.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Drawing.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.EnterpriseServices.dll
+        label: System.EnterpriseServices.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.EnterpriseServices.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.EnterpriseServices.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.EnterpriseServices.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.dll
+        label: System.IO.Compression.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.FileSystem.dll
+        label: System.IO.Compression.FileSystem.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.FileSystem.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.FileSystem.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.FileSystem.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.Net.Http.dll
+        label: System.Net.Http.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.Net.Http.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Net.Http.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Net.Http.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.Numerics.dll
+        label: System.Numerics.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.Numerics.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Numerics.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Numerics.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.Runtime.dll
+        label: System.Runtime.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.Runtime.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Runtime.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Runtime.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.Runtime.Serialization.dll
+        label: System.Runtime.Serialization.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.Runtime.Serialization.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Runtime.Serialization.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Runtime.Serialization.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.Security.dll
+        label: System.Security.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.Security.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Security.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Security.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.ServiceModel.Internals.dll
+        label: System.ServiceModel.Internals.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.ServiceModel.Internals.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.ServiceModel.Internals.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.ServiceModel.Internals.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.Transactions.dll
+        label: System.Transactions.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.Transactions.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Transactions.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Transactions.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.Xml.dll
+        label: System.Xml.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.Xml.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Xml.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Xml.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\System.Xml.Linq.dll
+        label: System.Xml.Linq.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\System.Xml.Linq.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Xml.Linq.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Xml.Linq.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.dll
+        label: Unity.Burst.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.Unsafe.dll
+        label: Unity.Burst.Unsafe.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.Unsafe.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.Unsafe.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.Unsafe.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.InputSystem.dll
+        label: Unity.InputSystem.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.InputSystem.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.InputSystem.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.InputSystem.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.Mathematics.dll
+        label: Unity.Mathematics.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.Mathematics.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.Mathematics.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.Mathematics.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+        label: Unity.RenderPipeline.Universal.ShaderLibrary.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
+        label: Unity.RenderPipelines.Core.Runtime.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
+        label: Unity.RenderPipelines.Core.ShaderLibrary.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+        label: Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+        label: Unity.RenderPipelines.Universal.Runtime.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
+        label: Unity.RenderPipelines.Universal.Shaders.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.TextMeshPro.dll
+        label: Unity.TextMeshPro.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.TextMeshPro.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.TextMeshPro.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.TextMeshPro.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.Timeline.dll
+        label: Unity.Timeline.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.Timeline.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.Timeline.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.Timeline.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Antlr3.Runtime.dll
+        label: Unity.VisualScripting.Antlr3.Runtime.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Antlr3.Runtime.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Antlr3.Runtime.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Antlr3.Runtime.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Core.dll
+        label: Unity.VisualScripting.Core.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Core.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Core.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Core.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Flow.dll
+        label: Unity.VisualScripting.Flow.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Flow.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Flow.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Flow.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.State.dll
+        label: Unity.VisualScripting.State.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.State.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.State.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.State.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AccessibilityModule.dll
+        label: UnityEngine.AccessibilityModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AccessibilityModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AccessibilityModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AccessibilityModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AIModule.dll
+        label: UnityEngine.AIModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AIModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AIModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AIModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AndroidJNIModule.dll
+        label: UnityEngine.AndroidJNIModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AndroidJNIModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AndroidJNIModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AndroidJNIModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AnimationModule.dll
+        label: UnityEngine.AnimationModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AnimationModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AnimationModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AnimationModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ARModule.dll
+        label: UnityEngine.ARModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ARModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ARModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ARModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AssetBundleModule.dll
+        label: UnityEngine.AssetBundleModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AssetBundleModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AssetBundleModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AssetBundleModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AudioModule.dll
+        label: UnityEngine.AudioModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AudioModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AudioModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AudioModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClothModule.dll
+        label: UnityEngine.ClothModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClothModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClothModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClothModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterInputModule.dll
+        label: UnityEngine.ClusterInputModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterInputModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterInputModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterInputModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterRendererModule.dll
+        label: UnityEngine.ClusterRendererModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterRendererModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterRendererModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterRendererModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CoreModule.dll
+        label: UnityEngine.CoreModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CoreModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CoreModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CoreModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CrashReportingModule.dll
+        label: UnityEngine.CrashReportingModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CrashReportingModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CrashReportingModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CrashReportingModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DirectorModule.dll
+        label: UnityEngine.DirectorModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DirectorModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DirectorModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DirectorModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.dll
+        label: UnityEngine.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DSPGraphModule.dll
+        label: UnityEngine.DSPGraphModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DSPGraphModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DSPGraphModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DSPGraphModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GameCenterModule.dll
+        label: UnityEngine.GameCenterModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GameCenterModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GameCenterModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GameCenterModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GIModule.dll
+        label: UnityEngine.GIModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GIModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GIModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GIModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GridModule.dll
+        label: UnityEngine.GridModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GridModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GridModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GridModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.HotReloadModule.dll
+        label: UnityEngine.HotReloadModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.HotReloadModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.HotReloadModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.HotReloadModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ImageConversionModule.dll
+        label: UnityEngine.ImageConversionModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ImageConversionModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ImageConversionModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ImageConversionModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.IMGUIModule.dll
+        label: UnityEngine.IMGUIModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.IMGUIModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.IMGUIModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.IMGUIModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputLegacyModule.dll
+        label: UnityEngine.InputLegacyModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputLegacyModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputLegacyModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputLegacyModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputModule.dll
+        label: UnityEngine.InputModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.JSONSerializeModule.dll
+        label: UnityEngine.JSONSerializeModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.JSONSerializeModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.JSONSerializeModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.JSONSerializeModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.LocalizationModule.dll
+        label: UnityEngine.LocalizationModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.LocalizationModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.LocalizationModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.LocalizationModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.NVIDIAModule.dll
+        label: UnityEngine.NVIDIAModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.NVIDIAModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.NVIDIAModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.NVIDIAModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ParticleSystemModule.dll
+        label: UnityEngine.ParticleSystemModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ParticleSystemModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ParticleSystemModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ParticleSystemModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+        label: UnityEngine.PerformanceReportingModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.Physics2DModule.dll
+        label: UnityEngine.Physics2DModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.Physics2DModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.Physics2DModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.Physics2DModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PhysicsModule.dll
+        label: UnityEngine.PhysicsModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PhysicsModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PhysicsModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PhysicsModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ProfilerModule.dll
+        label: UnityEngine.ProfilerModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ProfilerModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ProfilerModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ProfilerModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+        label: UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+        label: UnityEngine.ScreenCaptureModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SharedInternalsModule.dll
+        label: UnityEngine.SharedInternalsModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SharedInternalsModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SharedInternalsModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SharedInternalsModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteMaskModule.dll
+        label: UnityEngine.SpriteMaskModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteMaskModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteMaskModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteMaskModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteShapeModule.dll
+        label: UnityEngine.SpriteShapeModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteShapeModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteShapeModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteShapeModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.StreamingModule.dll
+        label: UnityEngine.StreamingModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.StreamingModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.StreamingModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.StreamingModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubstanceModule.dll
+        label: UnityEngine.SubstanceModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubstanceModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubstanceModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubstanceModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubsystemsModule.dll
+        label: UnityEngine.SubsystemsModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubsystemsModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubsystemsModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubsystemsModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainModule.dll
+        label: UnityEngine.TerrainModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+        label: UnityEngine.TerrainPhysicsModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll
+        label: UnityEngine.TextCoreFontEngineModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll
+        label: UnityEngine.TextCoreTextEngineModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextRenderingModule.dll
+        label: UnityEngine.TextRenderingModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextRenderingModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextRenderingModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextRenderingModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TilemapModule.dll
+        label: UnityEngine.TilemapModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TilemapModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TilemapModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TilemapModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TLSModule.dll
+        label: UnityEngine.TLSModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TLSModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TLSModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TLSModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UI.dll
+        label: UnityEngine.UI.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UI.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UI.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UI.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsModule.dll
+        label: UnityEngine.UIElementsModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsNativeModule.dll
+        label: UnityEngine.UIElementsNativeModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsNativeModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsNativeModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsNativeModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIModule.dll
+        label: UnityEngine.UIModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UmbraModule.dll
+        label: UnityEngine.UmbraModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UmbraModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UmbraModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UmbraModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UNETModule.dll
+        label: UnityEngine.UNETModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UNETModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UNETModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UNETModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll
+        label: UnityEngine.UnityAnalyticsCommonModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+        label: UnityEngine.UnityAnalyticsModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityConnectModule.dll
+        label: UnityEngine.UnityConnectModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityConnectModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityConnectModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityConnectModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityCurlModule.dll
+        label: UnityEngine.UnityCurlModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityCurlModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityCurlModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityCurlModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+        label: UnityEngine.UnityTestProtocolModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+        label: UnityEngine.UnityWebRequestAssetBundleModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+        label: UnityEngine.UnityWebRequestAudioModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+        label: UnityEngine.UnityWebRequestModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+        label: UnityEngine.UnityWebRequestTextureModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+        label: UnityEngine.UnityWebRequestWWWModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VehiclesModule.dll
+        label: UnityEngine.VehiclesModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VehiclesModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VehiclesModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VehiclesModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VFXModule.dll
+        label: UnityEngine.VFXModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VFXModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VFXModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VFXModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VideoModule.dll
+        label: UnityEngine.VideoModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VideoModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VideoModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VideoModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VirtualTexturingModule.dll
+        label: UnityEngine.VirtualTexturingModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VirtualTexturingModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VirtualTexturingModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VirtualTexturingModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VRModule.dll
+        label: UnityEngine.VRModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VRModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VRModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VRModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.WindModule.dll
+        label: UnityEngine.WindModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.WindModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.WindModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.WindModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.XRModule.dll
+        label: UnityEngine.XRModule.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.XRModule.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.XRModule.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.XRModule.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Plugins
+        label: Plugins
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\PsychMaze Project_Data\Plugins\x86
+        label: x86
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\PsychMaze Project_Data\Plugins\x86\lib_burst_generated.dll
+        label: lib_burst_generated.dll
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Plugins\x86\lib_burst_generated.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Plugins\x86\lib_burst_generated.dll
+          projectPath: 2-27Build\PsychMaze Project_Data\Plugins\x86\lib_burst_generated.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\resources.assets
+        label: resources.assets
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\resources.assets
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\resources.assets
+          projectPath: 2-27Build\PsychMaze Project_Data\resources.assets
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\resources.assets.resS
+        label: resources.assets.resS
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\resources.assets.resS
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\resources.assets.resS
+          projectPath: 2-27Build\PsychMaze Project_Data\resources.assets.resS
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Resources
+        label: Resources
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\PsychMaze Project_Data\Resources\unity default resources
+        label: unity default resources
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Resources\unity default resources
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Resources\unity
+            default resources
+          projectPath: 2-27Build\PsychMaze Project_Data\Resources\unity default resources
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\Resources\unity_builtin_extra
+        label: unity_builtin_extra
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\Resources\unity_builtin_extra
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Resources\unity_builtin_extra
+          projectPath: 2-27Build\PsychMaze Project_Data\Resources\unity_builtin_extra
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\RuntimeInitializeOnLoads.json
+        label: RuntimeInitializeOnLoads.json
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\RuntimeInitializeOnLoads.json
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\RuntimeInitializeOnLoads.json
+          projectPath: 2-27Build\PsychMaze Project_Data\RuntimeInitializeOnLoads.json
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\ScriptingAssemblies.json
+        label: ScriptingAssemblies.json
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\ScriptingAssemblies.json
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\ScriptingAssemblies.json
+          projectPath: 2-27Build\PsychMaze Project_Data\ScriptingAssemblies.json
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\sharedassets0.assets
+        label: sharedassets0.assets
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\sharedassets0.assets
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\sharedassets0.assets
+          projectPath: 2-27Build\PsychMaze Project_Data\sharedassets0.assets
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\sharedassets0.assets.resS
+        label: sharedassets0.assets.resS
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\sharedassets0.assets.resS
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\sharedassets0.assets.resS
+          projectPath: 2-27Build\PsychMaze Project_Data\sharedassets0.assets.resS
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\StreamingAssets
+        label: StreamingAssets
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input
+        label: Input
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Debrief.txt
+        label: Debrief.txt
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Debrief.txt
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Debrief.txt
+          projectPath: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Debrief.txt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Instructions.txt
+        label: Instructions.txt
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Instructions.txt
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Instructions.txt
+          projectPath: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Instructions.txt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\MapSize.txt
+        label: MapSize.txt
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\MapSize.txt
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\StreamingAssets\Input\MapSize.txt
+          projectPath: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\MapSize.txt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\TrialNumberInput.txt
+        label: TrialNumberInput.txt
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\TrialNumberInput.txt
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\StreamingAssets\Input\TrialNumberInput.txt
+          projectPath: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\TrialNumberInput.txt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\UnityCrashHandler32.exe
+        label: UnityCrashHandler32.exe
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\UnityCrashHandler32.exe
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\UnityCrashHandler32.exe
+          projectPath: 2-27Build\UnityCrashHandler32.exe
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2-27Build\UnityPlayer.dll
+        label: UnityPlayer.dll
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2-27Build\UnityPlayer.dll
+          fullPath: C:\Users\mille\PsychMaze Project\2-27Build\UnityPlayer.dll
+          projectPath: 2-27Build\UnityPlayer.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\mille\PsychMaze Project\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: UserSettings
         label: UserSettings
         level: 0
@@ -1377,21 +5039,940 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
+    - path: 2-27Build\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+      projectPath: 2-27Build\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+      projectPath: 2-27Build\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\machine.config
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\2.0\machine.config
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\2.0\machine.config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\settings.map
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\2.0\settings.map
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\2.0\settings.map
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\2.0\web.config
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\2.0\web.config
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\2.0\web.config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\machine.config
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.0\machine.config
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.0\machine.config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\settings.map
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.0\settings.map
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.0\settings.map
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\4.0\web.config
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.0\web.config
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.0\web.config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\machine.config
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.5\machine.config
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.5\machine.config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\settings.map
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.5\settings.map
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.5\settings.map
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\4.5\web.config
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\4.5\web.config
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\4.5\web.config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\browscap.ini
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\browscap.ini
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\browscap.ini
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\config
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\config
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\MonoBleedingEdge\etc\mono\mconfig\config.xml
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\MonoBleedingEdge\etc\mono\mconfig\config.xml
+      projectPath: 2-27Build\MonoBleedingEdge\etc\mono\mconfig\config.xml
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project.exe
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project.exe
+      projectPath: 2-27Build\PsychMaze Project.exe
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data\Plugins\x86\lib_burst_generated.txt
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data\Plugins\x86\lib_burst_generated.txt
+      projectPath: 2-27Build\PsychMaze Project_BurstDebugInformation_DoNotShip\Data\Plugins\x86\lib_burst_generated.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\app.info
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\app.info
+      projectPath: 2-27Build\PsychMaze Project_Data\app.info
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\boot.config
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\boot.config
+      projectPath: 2-27Build\PsychMaze Project_Data\boot.config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\globalgamemanagers
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\globalgamemanagers
+      projectPath: 2-27Build\PsychMaze Project_Data\globalgamemanagers
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\globalgamemanagers.assets
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\globalgamemanagers.assets
+      projectPath: 2-27Build\PsychMaze Project_Data\globalgamemanagers.assets
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\globalgamemanagers.assets.resS
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\globalgamemanagers.assets.resS
+      projectPath: 2-27Build\PsychMaze Project_Data\globalgamemanagers.assets.resS
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\level0
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\level0
+      projectPath: 2-27Build\PsychMaze Project_Data\level0
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Assembly-CSharp.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Cinemachine.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Cinemachine.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Cinemachine.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Mono.Security.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Mono.Security.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Mono.Security.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\mscorlib.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\mscorlib.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\mscorlib.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\netstandard.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\netstandard.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\netstandard.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.ComponentModel.Composition.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.ComponentModel.Composition.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.ComponentModel.Composition.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.Configuration.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Configuration.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Configuration.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.Core.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Core.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Core.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.Data.DataSetExtensions.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Data.DataSetExtensions.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Data.DataSetExtensions.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.Data.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Data.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Data.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.Drawing.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Drawing.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Drawing.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.EnterpriseServices.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.EnterpriseServices.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.EnterpriseServices.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.FileSystem.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.FileSystem.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.IO.Compression.FileSystem.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.Net.Http.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Net.Http.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Net.Http.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.Numerics.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Numerics.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Numerics.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.Runtime.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Runtime.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Runtime.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.Runtime.Serialization.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Runtime.Serialization.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Runtime.Serialization.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.Security.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Security.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Security.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.ServiceModel.Internals.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.ServiceModel.Internals.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.ServiceModel.Internals.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.Transactions.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Transactions.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Transactions.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.Xml.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Xml.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Xml.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\System.Xml.Linq.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\System.Xml.Linq.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\System.Xml.Linq.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.Unsafe.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.Unsafe.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.Burst.Unsafe.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.InputSystem.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.InputSystem.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.InputSystem.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.Mathematics.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.Mathematics.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.Mathematics.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.TextMeshPro.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.TextMeshPro.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.Timeline.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.Timeline.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Antlr3.Runtime.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Antlr3.Runtime.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Antlr3.Runtime.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Core.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Core.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Core.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Flow.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Flow.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.Flow.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.State.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.State.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\Unity.VisualScripting.State.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AccessibilityModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AccessibilityModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AccessibilityModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AIModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AIModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AIModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AndroidJNIModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AndroidJNIModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AndroidJNIModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AnimationModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AnimationModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AnimationModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ARModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ARModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ARModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AssetBundleModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AssetBundleModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AssetBundleModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AudioModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AudioModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.AudioModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClothModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClothModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClothModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterInputModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterInputModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterInputModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CoreModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CoreModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CoreModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CrashReportingModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CrashReportingModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.CrashReportingModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DirectorModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DirectorModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DirectorModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DSPGraphModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DSPGraphModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.DSPGraphModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GameCenterModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GameCenterModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GameCenterModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GIModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GIModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GIModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GridModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GridModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.GridModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.HotReloadModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.HotReloadModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.HotReloadModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ImageConversionModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ImageConversionModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ImageConversionModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.IMGUIModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.IMGUIModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.IMGUIModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputLegacyModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputLegacyModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputLegacyModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.InputModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.LocalizationModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.LocalizationModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.LocalizationModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.NVIDIAModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.NVIDIAModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.NVIDIAModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.Physics2DModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.Physics2DModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.Physics2DModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PhysicsModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PhysicsModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.PhysicsModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ProfilerModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ProfilerModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ProfilerModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.StreamingModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.StreamingModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.StreamingModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubstanceModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubstanceModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubstanceModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubsystemsModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubsystemsModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.SubsystemsModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextRenderingModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextRenderingModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TextRenderingModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TilemapModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TilemapModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TilemapModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TLSModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TLSModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.TLSModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UI.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UI.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsNativeModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsNativeModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIElementsNativeModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UIModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UmbraModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UmbraModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UmbraModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UNETModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UNETModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UNETModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityConnectModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityConnectModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityConnectModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityCurlModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityCurlModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityCurlModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VehiclesModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VehiclesModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VehiclesModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VFXModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VFXModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VFXModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VideoModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VideoModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VideoModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VirtualTexturingModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VirtualTexturingModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VirtualTexturingModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VRModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VRModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.VRModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.WindModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.WindModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.WindModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.XRModule.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Managed\UnityEngine.XRModule.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Managed\UnityEngine.XRModule.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Plugins\x86\lib_burst_generated.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Plugins\x86\lib_burst_generated.dll
+      projectPath: 2-27Build\PsychMaze Project_Data\Plugins\x86\lib_burst_generated.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\resources.assets
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\resources.assets
+      projectPath: 2-27Build\PsychMaze Project_Data\resources.assets
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\resources.assets.resS
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\resources.assets.resS
+      projectPath: 2-27Build\PsychMaze Project_Data\resources.assets.resS
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Resources\unity default resources
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Resources\unity
+        default resources
+      projectPath: 2-27Build\PsychMaze Project_Data\Resources\unity default resources
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\Resources\unity_builtin_extra
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\Resources\unity_builtin_extra
+      projectPath: 2-27Build\PsychMaze Project_Data\Resources\unity_builtin_extra
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\RuntimeInitializeOnLoads.json
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\RuntimeInitializeOnLoads.json
+      projectPath: 2-27Build\PsychMaze Project_Data\RuntimeInitializeOnLoads.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\ScriptingAssemblies.json
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\ScriptingAssemblies.json
+      projectPath: 2-27Build\PsychMaze Project_Data\ScriptingAssemblies.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\sharedassets0.assets
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\sharedassets0.assets
+      projectPath: 2-27Build\PsychMaze Project_Data\sharedassets0.assets
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\sharedassets0.assets.resS
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\sharedassets0.assets.resS
+      projectPath: 2-27Build\PsychMaze Project_Data\sharedassets0.assets.resS
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Debrief.txt
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Debrief.txt
+      projectPath: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Debrief.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Instructions.txt
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Instructions.txt
+      projectPath: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\Instructions.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\MapSize.txt
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\StreamingAssets\Input\MapSize.txt
+      projectPath: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\MapSize.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\TrialNumberInput.txt
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\PsychMaze Project_Data\StreamingAssets\Input\TrialNumberInput.txt
+      projectPath: 2-27Build\PsychMaze Project_Data\StreamingAssets\Input\TrialNumberInput.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\UnityCrashHandler32.exe
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\UnityCrashHandler32.exe
+      projectPath: 2-27Build\UnityCrashHandler32.exe
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2-27Build\UnityPlayer.dll
+      fullPath: C:\Users\mille\PsychMaze Project\2-27Build\UnityPlayer.dll
+      projectPath: 2-27Build\UnityPlayer.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\mille\PsychMaze Project\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: UserSettings\Layouts\default-2021.dwlt
       fullPath: C:\Users\mille\PsychMaze Project\UserSettings\Layouts\default-2021.dwlt
       projectPath: UserSettings\Layouts\default-2021.dwlt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 1 changed file
+    changedFilesText: 154 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-02-21T08:06:31.069-08:00
+      updatedTimeString: 2023-02-27T10:14:29.683-08:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-02-21T08:06:37.285-08:00
+      updatedTimeString: 2023-02-27T10:16:16.904-08:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-02-21T08:06:31.968-08:00
+      updatedTimeString: 2023-02-27T10:14:29.710-08:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -5011,13 +9592,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-02-20T15:38:42.617-08:00
+    updatedTimeString: 2023-02-27T10:14:29.683-08:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-02-20T15:41:13.151-08:00
+    updatedTimeString: 2023-02-27T10:14:29.697-08:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-02-20T15:41:13.140-08:00
+    updatedTimeString: 2023-02-27T10:16:16.904-08:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -5037,6 +9618,6 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 0
+  appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
