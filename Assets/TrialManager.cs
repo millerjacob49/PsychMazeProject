@@ -19,6 +19,7 @@ namespace Experiment
         public float EndTimePractice = 0f;
         public float StartTime = 0f;
         public float EndTime = 0f;
+        public float curTime;
         public int curTrial;    //Want to get this from the SessionManager script
         public int TrialCompletion;
 
@@ -29,10 +30,13 @@ namespace Experiment
 
             //Place a plane to block player into the maze
             CloseMazePlane.SetActive(true);
+
             if (StartTimePractice == 0)
             {
-                
+
                 StartTimePractice = Time.time;
+
+               
             }
             else
             {
@@ -41,6 +45,8 @@ namespace Experiment
 
         }
 
+        
+
         public void EndTimer()
         {
 
@@ -48,14 +54,17 @@ namespace Experiment
             {
                 Debug.Log("ENDTIMER CALLED");
                 EndTimePractice = Time.time;
+                WriteDataToFilePractice();
                 TrialCompletion = 1;
                 DropDownManager MapMgmt = MapControls.GetComponent<DropDownManager>();
                 MapMgmt.RemoveMaps();   //remove map for actual run
+                
             }
             else
             {
+                Debug.Log("ENDTIMER ELSE IS BEING CALLED");
                 EndTime = Time.time;
-                WriteDataToFile();
+                WriteDataToFileExp();   //remove Exp to revert to original method
                 TrialCompletion = 2;
                 
 
@@ -66,7 +75,7 @@ namespace Experiment
             teleport.Reposition();
 
         }
-
+/*
         public void WriteDataToFile()
         {
             SessionManager sessionManager = GetComponent<SessionManager>();
@@ -77,7 +86,27 @@ namespace Experiment
             string FileName = sessionManager.sessionName;
             File.AppendAllText(FileName, Data);
         }
+*/
 
+        public void WriteDataToFilePractice()
+        {
+            SessionManager sessionManager = GetComponent<SessionManager>();
+            curTrial = sessionManager.currentTrial;
+            float TotalTimePractice = EndTimePractice - StartTimePractice;
+            string Data = (curTrial + 1) + ", Practice, " + TotalTimePractice;
+            string FileName = sessionManager.sessionName;
+            File.AppendAllText(FileName, Data);
+        }
+
+        public void WriteDataToFileExp()
+        {
+            SessionManager sessionManager = GetComponent<SessionManager>();
+            curTrial = sessionManager.currentTrial;
+            float TotalTime = EndTime - StartTime;
+            string Data = "\n" + (curTrial + 1) + ", Actual, " + TotalTime + "\n";
+            string FileName = sessionManager.sessionName;
+            File.AppendAllText(FileName, Data);
+        }
 
         public void NewTrial()
         {

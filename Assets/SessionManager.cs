@@ -20,6 +20,8 @@ public class SessionManager : MonoBehaviour
     public int trialAmounts;    //retrieved from text fule
     public int miniMapSet;      //retrieved from settings menu
     public int trialCompletion;  //retrieved from trial manager
+    public float StartTimePractice; //retrieved from trialmanager
+    public float curTime; //retrieved from trialmanager
     
 
 
@@ -36,7 +38,7 @@ public class SessionManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         if (GetCompletion() == 2)
         {
             currentTrial++;
