@@ -28,5 +28,13 @@ public class MapSizer : MonoBehaviour
 
     }
 
-    
+    void Update()
+    {
+        Vector3 eulerAngles = transform.eulerAngles;
+        eulerAngles.y = 0;
+        eulerAngles.z = 0;
+        transform.eulerAngles = eulerAngles;
+    }
+
+
 }
