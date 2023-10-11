@@ -31,7 +31,7 @@ public class MazeTrigger : MonoBehaviour
         CurTime = Time.time - StartTime;
         Debug.Log(CurTime + ", " + StartTime + ", " + Go);
 
-        if(CurTime > 2.0f && Go == 1)
+        if(CurTime > 150.0f && Go == 1)
         {
             Go = 0;
             StartTime = 0.0f;
