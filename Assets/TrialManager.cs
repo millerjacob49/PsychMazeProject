@@ -13,6 +13,7 @@ namespace Experiment
         public GameObject TimerActiveZone;
         public GameObject CloseMazePlane;
         public GameObject MapControls;
+        public GameObject TimeOutText;
         public bool Triggered = false;
         public float TotalTime;
         public float StartTimePractice = 0f;
@@ -49,20 +50,24 @@ namespace Experiment
 
         public void EndTimer()
         {
+            Debug.Log("End Timer Called");
 
             if (EndTimePractice == 0)
             {
-                Debug.Log("ENDTIMER CALLED");
+                //Debug.Log("ENDTIMER CALLED");
                 EndTimePractice = Time.time;
                 WriteDataToFilePractice();
                 TrialCompletion = 1;
+
+                TimeOutText.SetActive(true);
+                Debug.Log("Is this called twice??");
                 DropDownManager MapMgmt = MapControls.GetComponent<DropDownManager>();
                 MapMgmt.RemoveMaps();   //remove map for actual run
                 
             }
             else
             {
-                Debug.Log("ENDTIMER ELSE IS BEING CALLED");
+                //Debug.Log("ENDTIMER ELSE IS BEING CALLED");
                 EndTime = Time.time;
                 WriteDataToFileExp();   //remove Exp to revert to original method
                 TrialCompletion = 2;
@@ -71,8 +76,9 @@ namespace Experiment
             }
 
             CloseMazePlane.SetActive(false);
-            Teleport teleport = StartPosition.GetComponent<Teleport>(); 
+            Teleport teleport = StartPosition.GetComponent<Teleport>();
             teleport.Reposition();
+            TimeOutText.SetActive(false);
 
         }
 /*

@@ -4,20 +4,38 @@ using UnityEngine;
 using Experiment;
 using System;
 using System.Threading;
+using System.IO;
 
 
 public class MazeTrigger : MonoBehaviour
 {
+    public string filename = Application.streamingAssetsPath + "/Input/TimeOut.txt";
     public float StartTime = 0.0f;
     public float CurTime = 0.0f;
     public GameObject TrialManager1;
     public GameObject StartPosition;
     public int Go = 0;
+    public float DefaultTime = 150.0f;
 
+    public void Start()
+    {
+
+        if (File.Exists(filename))
+        {
+            string text = File.ReadAllText(filename);
+            if (float.TryParse(text, out float value))
+            {
+                DefaultTime = value;
+                Debug.Log("SetTime: " + DefaultTime);
+            }
+        }
+        
+    }
 
 
     public void OnTriggerEnter()
     {
+        Debug.Log("TimeOUT:" + DefaultTime);
         Debug.Log("OntriggerEneter called");
         TrialManager trialMgmt = TrialManager1.GetComponent<TrialManager>();
         trialMgmt.StartTimer();
@@ -31,7 +49,7 @@ public class MazeTrigger : MonoBehaviour
         CurTime = Time.time - StartTime;
         Debug.Log(CurTime + ", " + StartTime + ", " + Go);
 
-        if(CurTime > 150.0f && Go == 1)
+        if(CurTime > DefaultTime && Go == 1)
         {
             Go = 0;
             StartTime = 0.0f;

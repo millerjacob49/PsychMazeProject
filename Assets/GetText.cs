@@ -12,10 +12,13 @@ public class GetText : MonoBehaviour
     public TextMeshProUGUI textElementDebrief;
     public TextAsset TextInstructions;
     public TextAsset Debrief;
+    public TextMeshProUGUI textElementTimeOutDisplay;
+    public TextAsset TimeOutDisplay;
 
     void Start()
     {
         textElementInstructions.text = File.ReadAllText(Application.streamingAssetsPath + "/Input/Instructions.txt");
         textElementDebrief.text = File.ReadAllText(Application.streamingAssetsPath + "/Input/Debrief.txt");
+        textElementTimeOutDisplay.text = File.ReadAllText(Application.streamingAssetsPath + "/Input/TimeOutDisplay.txt");
     }
 }

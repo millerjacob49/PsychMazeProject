@@ -2872,6 +2872,7 @@ MonoBehaviour:
   TimerActiveZone: {fileID: 1459069168}
   CloseMazePlane: {fileID: 1781817169}
   MapControls: {fileID: 1586765916}
+  TimeOutText: {fileID: 1582805194}
   Triggered: 0
   TotalTime: 0
   StartTimePractice: 0
@@ -3610,7 +3611,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 16
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -3840,11 +3841,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc486ca6c08e69648bbcc32a85747e04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  filename: C:/Users/mille/PsychMaze Project/Assets/StreamingAssets/Input/TimeOut.txt
   StartTime: 0
   CurTime: 0
   TrialManager1: {fileID: 1115708076}
   StartPosition: {fileID: 729227059}
   Go: 0
+  DefaultTime: 150
 --- !u!114 &1459069174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4080,6 +4083,8 @@ MonoBehaviour:
   textElementDebrief: {fileID: 1338101931}
   TextInstructions: {fileID: 0}
   Debrief: {fileID: 0}
+  textElementTimeOutDisplay: {fileID: 1582805197}
+  TimeOutDisplay: {fileID: 0}
 --- !u!1 &1559157249
 GameObject:
   m_ObjectHideFlags: 0
@@ -4214,7 +4219,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Teleporting to Maze Start!
+  m_text: Teleporting to Maze Start! Wait for reset!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5582,6 +5587,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8153948503550213515, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
+      propertyPath: Menu
+      value: 
+      objectReference: {fileID: 1536687400}
+    - target: {fileID: 8153948503550213515, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
+        type: 3}
       propertyPath: Player
       value: 
       objectReference: {fileID: 729227059}
@@ -5615,6 +5625,11 @@ PrefabInstance:
       propertyPath: script3
       value: 
       objectReference: {fileID: 135756641613574975}
+    - target: {fileID: 8153948503550213515, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
+        type: 3}
+      propertyPath: TimeOutText
+      value: 
+      objectReference: {fileID: 1582805194}
     - target: {fileID: 8153948503550213515, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
       propertyPath: teleportTarget
